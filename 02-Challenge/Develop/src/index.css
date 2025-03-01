@@ -53,6 +53,15 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-inline-start: 105px; /* Add margin to split buttons */
+  border-radius: 90%;
+}
+
+.redbutton{
+  background-color: red;
+}
+.greenbutton{
+  background-color: green;
 }
 button:hover {
   border-color: #646cff;
@@ -60,6 +69,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+td {
+  width: 100px;
 }
 
 @media (prefers-color-scheme: light) {
@@ -73,6 +86,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+tr img {
+  height: 100px;
 }
 
 main {
@@ -118,3 +135,4 @@ tbody tr:nth-child(odd) {
   width: 80vw;
   table-layout: fixed;
 }
+
